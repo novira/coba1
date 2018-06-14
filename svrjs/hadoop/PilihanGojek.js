@@ -10,17 +10,14 @@ function Retrieve_data_Trans(){
     console.log("retrieve data");
      $('#topup').remove();
      $('#withdraw').remove();
-     view_form_post("ViewGetValueTrans","insertdata","insertdata");
 };
 function Retrieve_data_TopUp(){
      $('#trans').remove();
      $('#withdraw').remove();
-     view_form_post("ViewGetValueTopUp","insertdata","insertdata");
 };
 function Retrieve_data_Withdraw(){
     $('#topup').remove();
      $('#trans').remove();
-     view_form_post("ViewGetValueWithdraw","insertdata","insertdata");
 };
 //function simpan
 //function ajax view form GET
