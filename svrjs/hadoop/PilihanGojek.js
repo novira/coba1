@@ -10,14 +10,17 @@ function Retrieve_data_Trans(){
     console.log("retrieve data");
      $('#topup').remove();
      $('#withdraw').remove();
+     window.location.href = "http://coba-coba.1d35.starter-us-east-1.openshiftapps.com/UploadGojekTransRest.html";
 };
 function Retrieve_data_TopUp(){
      $('#trans').remove();
      $('#withdraw').remove();
+    window.location.href = "http://coba-coba.1d35.starter-us-east-1.openshiftapps.com/UploadGojekTopUpRest.html";
 };
 function Retrieve_data_Withdraw(){
     $('#topup').remove();
      $('#trans').remove();
+    window.location.href = "http://coba-coba.1d35.starter-us-east-1.openshiftapps.com/UploadGojekWithdrawRest.html";
 };
 //function simpan
 //function ajax view form GET
